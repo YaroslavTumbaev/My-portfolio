@@ -1,0 +1,444 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 2600px;
+    background-image: url(https://img.freepik.com/free-photo/dirty-pattern-paint-room-block_1203-5709.jpg?w=2000&t=st=1668696885~exp=1668697485~hmac=8e7548d2362d27daf00c258821a225944a1dfb58a21040c39dbba49c89d9f71e);
+    font-family: 'Cormorant', serif;
+
+}
+
+#header{
+    background-color: black;
+    border: 4px double rgb(255, 255, 255);
+    height: 80px;
+    margin-bottom: 50px;
+    line-height: 70px;
+    float: left;
+    width: 100%;
+    
+}
+
+
+a {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.name {
+    color: rgb(255, 255, 255);
+font-size: 40px;
+margin-left: 40px;
+margin-right: 120px;
+}
+
+.vert {
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    text-decoration: none;
+    margin-left: 0px;
+}
+
+a:hover {
+    color: rgb(255, 255, 169);
+}
+
+#footer {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-bottom: 0px;
+    border-top: 4px solid #ffffff;
+    background-image: url("https://img.freepik.com/free-photo/dirty-pattern-paint-room-block_1203-5709.jpg?w=2000&t=st=1668696885~exp=1668697485~hmac=8e7548d2362d27daf00c258821a225944a1dfb58a21040c39dbba49c89d9f71e");
+    border: 4px double rgb(255, 255, 255);
+    height: 80px;
+    float: left;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fafafa;
+    min-height: 500px;
+
+}
+
+#main {
+    width: 50%;
+    margin-left: 10%;
+    background: #fafafa;
+    border: 1px solid #000000;
+    padding: 20px 2.5%;
+    float: left;
+    height: 2350px;
+}
+
+#aside {
+    width: 20%;
+    padding: 20px 2.5%;
+    border:1px solid #000000;
+    
+    float: left;
+    background: #fafafa;
+    margin-left: 5%;
+    height: 2350px;
+    font-size: 30px;
+
+}
+
+.plus {
+    background: #ffffff;
+    color: #000000;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 30px;
+    position: fixed;
+    top: 700px;
+    left: 25px;
+    border: 2px solid #000000;
+}
+
+.nike-air-jordan {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    float: left;
+    margin-left: 30px;
+    
+}
+
+.nike-air-jordan-text {
+    margin-top: 210px;
+    margin-left: 60px;
+    position: absolute;
+}
+
+.nike-air-jordan2 {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    float: left;
+    margin-left: 30px;
+}
+
+.nike-air-jordan-text2 {
+    margin-top: 210px;
+    padding-left: 170px;
+    position: absolute;
+    left: 315px;
+}
+
+.NikeDefyAllDay {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    float: left;
+    margin-left: 0px;
+    margin-left: 30px;
+    
+}
+
+.NikeDefyAllDay-text {
+    margin-top: 210px;
+    padding-left: 170px;
+    position: absolute;
+    left: 550px;
+}
+
+.adidasAdistarM {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    float: left;
+    margin-left: 0px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+.text {
+    text-align: center;
+}
+
+.adidas-Adistar-text {
+    margin-top: 210px;
+    padding-left: 170px;
+    position: absolute;
+    left: 60px;
+    bottom: 130px;
+}
+
+.Nike-M2K-Tecno {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    float: left;
+    margin-left: 0px;
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+
+.Nike-M2K-Tecno-text {
+    margin-top: 210px;
+    padding-left: 170px;
+    position: absolute;
+    left: 315px;
+    bottom: 130px;
+}
+
+.NikeairTailwind5 {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    float: left;
+    margin-left: 0px;
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+
+.NikeairTailwind5-text {
+    margin-top: 210px;
+    padding-left: 170px;
+    position: absolute;
+    left: 550px;
+    bottom: 130px;
+}
+
+.title-1 {
+    font-size: 30px;
+   text-align: center;
+    left: 315px;
+    margin-bottom: 30px;
+   
+}
+
+.title-2 {
+    font-size: 30px;
+   text-align: center;
+    left: 315px;
+    margin-bottom: 30px;
+   margin-top: 550px;
+}
+
+.zip-1 {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    float: left;
+    margin-left: 0px;
+    margin-left: 30px;
+    margin-top: 40px;
+
+
+}
+
+.zip-1-text {
+    margin-top: 210px;
+    padding-left: 170px;
+    position: absolute;
+    top: 860px;
+    left: 75px;;
+    bottom: -260px;
+}
+
+.zip-2-text {
+    margin-top: 210px;
+    padding-left: 170px;
+    position: absolute;
+    left: 315px;;
+    bottom: -260px;
+    top: 860px;
+}
+
+.zip-3-text {
+    margin-top: 210px;
+    padding-left: 170px;
+    position: absolute;
+    left: 550px;
+    bottom: -260px;
+    top: 860px;
+}
+
+.zip-4-text {
+    margin-top: 210px;
+    padding-left: 170px;
+    position: absolute;
+    left: 60px;
+    bottom: -500px;
+  
+}
+
+.zip-5-text {
+    margin-top: 210px;
+    padding-left: 170px;
+    position: absolute;
+    left: 315px;
+    bottom: -500px;
+   
+}
+
+.zip-6-text {
+    margin-top: 210px;
+    padding-left: 170px;
+    position: absolute;
+    left: 550px;
+    bottom: -500px;
+   
+}
+
+.zip-5-text-popular {
+    margin-top: 210px;
+    padding-left: 170px;
+    position: absolute;
+    left: 920px;
+    bottom:130px;
+}
+
+.accessories-1 {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    float: left;
+    margin-left: 0px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.accessories-1-text {
+    margin-top: 210px;
+    padding-left: 170px;
+    position: absolute;
+    left: 60px;
+    bottom: -850px;
+}
+
+.accessories-2-text {
+    
+    padding-left: 170px;
+    position: absolute;
+    left: 315px;
+    bottom: -850px;
+}
+
+.accessories-3-text {
+    margin-top: 210px;
+    padding-left: 170px;
+    position: absolute;
+    left: 550px;
+    bottom: -850px;
+}
+
+.accessories-4-text  {
+    margin-top: 210px;
+    padding-left: 170px;
+    position: absolute;
+    left: 60px;
+    bottom: -1100px;
+}
+
+
+.goriz {
+    font-size: 50px;
+    width: 50%;
+    position: absolute;
+    bottom: -1200px;
+}
+
+.comments {
+    font-size: 35px;
+    position: absolute;
+    bottom: -1270px;
+    left: 500px;
+}
+
+button {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #000000;
+    border: 0px solid #000000;
+
+}
+
+
+
+button:hover {
+    color: rgb(255, 255, 169);
+}
+
+.accessories-5-text  {
+    margin-top: 210px;
+    padding-left: 170px;
+    position: absolute;
+    left: 315px;
+    bottom: -1100px;
+}
+
+.accessories-6-text  {
+    margin-top: 210px;
+    padding-left: 170px;
+    position: absolute;
+    top: 1650px;
+    left: 550px;
+    bottom: -1100px;
+}
+
+.accessories-3-text-aside {
+    top: 15px;
+    position: absolute;
+    left: 1065px;
+    bottom: -100px;
+}
+
+
+.accessories-4-text-aside {
+    position: absolute;
+    
+    left: 1065px;
+    bottom: -345px;
+}
+
+.accessories-5-text-aside {
+    position: absolute;
+    left: 1065px;
+    bottom: -580px;
+}
+
+.a {
+    font-size: 10px;
+
+    position: absolute;
+    bottom: -1460px;
+    right: 40%;
+    left: 15%;
+}
+
+.b {
+    font-size: 75px;
+    text-align: center;
+    padding-top: 150px;
+    color: #000000;
+}

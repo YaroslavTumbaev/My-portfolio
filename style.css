@@ -1,0 +1,457 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Inconsolata', monospace;
+}
+
+li {
+    text-decoration: none;
+    color: rgb(255, 194, 11);;
+}
+
+body {
+    background-color: rgb(45, 45, 45);
+    height: 0px;
+}
+
+.HeaderMenu {
+    
+height: 60px;
+background-color: #000;
+border:1px solid  rgb(255, 194, 11);;
+}
+
+.HeaderMenuLine {
+    display: inline;
+}
+
+
+.HeaderMenuLineLogo {
+    list-style: none;
+    position: absolute;
+    left: 128px;
+    top: 5px;
+    color: rgb(255, 194, 11);
+    font-size: 35px;
+}
+
+.HeaderMenuLineText1 {
+    list-style: none;
+    position: absolute;
+    left: 850px;
+    top: 15px;
+    color: rgb(255, 194, 11);
+    font-size: 25px;
+}
+
+.HeaderMenuLineText1:hover {
+    color: rgb(255, 255, 124);
+    top: 14px;
+    font-size: 27px;
+}
+
+.HeaderMenuLineText2 {
+    list-style: none;
+    position: absolute;
+    left: 1050px;
+    top: 15px;
+    color: rgb(255, 194, 11);
+    font-size: 25px;
+}
+
+.HeaderMenuLineText2:hover {
+    color: rgb(255, 255, 124);
+    top: 14px;
+    font-size: 27px;
+}
+
+.HeaderMenuLineText3 {
+    list-style: none;
+    position: absolute;
+    left: 1250px;
+    top: 15px;
+    color: rgb(255, 194, 11);
+    font-size: 25px;
+}
+
+.HeaderMenuLineText3:hover {
+    color: rgb(255, 255, 124);
+    top: 14px;
+    font-size: 27px;
+    
+}
+
+
+.HeaderMenuVertLine1 {
+    list-style: none;
+    position: absolute;
+    left: 980px;
+    top: 15px;
+    color: rgb(255, 194, 11);
+    font-size: 35px;
+}
+
+.HeaderMenuVertLine2 {
+    list-style: none;
+    position: absolute;
+    left: 1180px;
+    top: 15px;
+    color: rgb(255, 194, 11);
+    font-size: 35px;
+}
+
+.Main {
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    background: rgb(249, 249, 249);
+    width: 1300px;
+    height: 1200px;
+    border: 1.5px solid #000;
+}
+
+.MainText1 {
+    position: absolute;
+    left: 320px;
+    top: 350px;
+    color: rgb(255, 194, 11);
+    font-size: 35px;
+    opacity: 0.7;
+}
+
+
+.MainText2 {
+    position: absolute;
+    left: 200px;
+    top: 400px;
+    color: rgb(255, 194, 11);
+    font-size: 50px;
+    opacity: 0.7;
+}
+
+.MainText3 {
+    position: absolute;
+    left: 270px;
+    top: 470px;
+    color: rgb(184, 184, 184);
+    font-size: 25px;
+    width: 400px;
+    opacity: 0.7;
+}
+
+.MainImg1 {
+    position: absolute;
+    left: 950px;
+    top: 200px;
+    width: 250px;
+    height: 250px;
+}
+
+.MainText4 {
+    position: absolute;
+    left: 900px;
+    top: 500px;
+    color: rgb(255, 194, 11);
+    font-size: 50px;
+    opacity: 0.7;
+}
+
+.btn-toggle {
+    background-color: rgb(23, 21, 21);
+    color: #ebebeb;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
+/* Стили Тёмной темы */
+body.dark-theme {
+    background: #ebebeb;
+    opacity: 1;
+  }
+  
+
+  .SkillsImg {
+    position: absolute;
+    top: 1150px;
+    left: 380px;
+    width: 700px;
+    
+  }
+
+  .SkillsTitle {
+    position: absolute;
+    left: 45%;
+    top: 900px;
+    font-size: 40px;
+    color: rgb(255, 194, 11);
+  }
+
+  .GorLine1 {
+    position: absolute;
+    top: 800px;
+    
+    color: rgb(247, 0, 0);
+    width: 100%;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  
+  .GorLine2 {
+    position: absolute;
+    top: 1550px;
+    width: 100%;
+}
+  
+
+  
+    .kinopoisk {
+    position: absolute;
+    top: 1850px;
+    left: 100px;
+    z-index: 1;
+    width: 250px;
+    height: 250px;
+    background-color: #000000;
+   
+  }
+
+  .kinopoisk:hover {
+    top: 1830px;
+    left: 80px;
+    width: 300px;
+    height: 300px;
+  }
+
+.KinopoiskText {
+    position: absolute;
+    top: 2130px;
+    left: 115px;
+    font-size: 50px;
+    color: rgb(255, 194, 11);
+    
+}
+
+.kinopoiskBG {
+    width: 300px;
+    height: 500px;
+   
+    top: 
+    1850px;
+    left: 100px;
+
+}
+
+  .PortfolioTitle {
+    position: absolute;
+    top: 1650px;
+    left: 40%;
+    font-size: 40px;
+    color: rgb(255, 194, 11);;
+  }
+
+  .preloader {
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+  }
+
+  .sneakers {
+    position: absolute;
+    top: 1850px;
+    left: 550px;
+    z-index: 1;
+    width: 250px;
+    height: 250px;
+    background-color: #000000;
+   
+  }
+
+  .SneakersText {
+    position: absolute;
+    top: 2130px;
+    left: 570px;
+    font-size: 50px;
+    color: rgb(255, 194, 11);
+    
+}
+
+  .sneakers:hover {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 1830px;
+    left: 530px;
+  }
+
+
+  .lds-ellipsis {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-ellipsis div {
+    position: absolute;
+    top: 33px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #fff;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+  }
+  .lds-ellipsis div:nth-child(1) {
+    left: 8px;
+    animation: lds-ellipsis1 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(2) {
+    left: 8px;
+    animation: lds-ellipsis2 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(3) {
+    left: 32px;
+    animation: lds-ellipsis2 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(4) {
+    left: 56px;
+    animation: lds-ellipsis3 0.6s infinite;
+  }
+  @keyframes lds-ellipsis1 {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes lds-ellipsis3 {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }
+  @keyframes lds-ellipsis2 {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(24px, 0);
+    }
+  }
+
+
+  .Restoran {
+    position: absolute;
+    top: 1850px;
+    left: 1000px;
+    z-index: 1;
+    width: 250px;
+    height: 250px;
+    background-color: #000000;
+   
+  }
+
+  .RestoranText {
+    position: absolute;
+    top: 2130px;
+    
+    left: 1020px;
+    font-size: 50px;
+    color: rgb(255, 194, 11);
+    
+}
+
+.Restoran:hover {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 1830px;
+    left: 980px;
+  }
+
+
+  
+ footer {
+    height: 300px;
+    background-color: #000;
+   
+    margin-top: 1800px;
+ }
+
+ .GitHub {
+    display: block;
+    font-size: 30px;
+    color: #c4c4c4;
+    position: absolute;
+    top: 2500px;
+    left: 100px;
+ }
+
+ .GitHub:hover {
+    color: aqua;
+ }
+
+ .Instagram {
+    display: block;
+    font-size: 30px;
+    color: #c4c4c4;
+    position: absolute;
+    top: 2550px;
+    left: 100px;
+ }
+
+ .Instagram:hover {
+    color: aqua;
+ }
+
+ .Vk {
+    display: block;
+    font-size: 30px;
+    color: #c4c4c4;
+    position: absolute;
+    top: 2600px;
+    left: 100px;
+ }
+
+ .Vk:hover {
+    color: aqua;
+ }
+
+ .GifElPrimo {
+    margin-left: 50%;
+    
+ }
+
+ .GifElPrimoText {
+    position: absolute;
+    top: 2490px;
+    left: 1100px;
+    font-size: 25px;
+    color: rgb(228, 87, 250);
+ }
+
+ .FooterText {
+  position: absolute;
+  top: 2500px;
+  left:700px;
+  width: 250px;
+  font-size: 27px;
+  color: #fff;
+ }
+
+ .FooterBlock {
+  width: 250px;
+  height: 250px;
+  border: 1px solid rgb(255, 194, 11);
+  margin-left: 690px;
+ }
